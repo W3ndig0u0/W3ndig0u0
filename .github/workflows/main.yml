@@ -18,6 +18,13 @@ jobs:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: yes      # Display facts section
+          plugin_habits_charts: yes     # Display charts section
+          plugin_habits_trim: yes       # Trim unused hours on daily chart
+          config_timezone: Europe/Stockholm # Set timezone
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_skipped: lowlighter
@@ -46,8 +53,10 @@ jobs:
         with:
           filename: metrics.personal.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          base: ""    
           plugin_achievements: yes
-          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes       # Display unlocked secrets achievements
+          plugin_achievements_limit: 0           # Display all unlocked achievement matching threshold and secrets params
+          plugin_achievements_display: detailed  
           config_display: large
           
