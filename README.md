@@ -36,9 +36,7 @@
 
 <summary>🌟: GitHub Stats</summary>
 <br />
-  [![w3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=w3ndig0u0)](https://github.com/w3ndig0u0/github-readme-stats)
-  <img align="left" alt="w3ndig0u0's GitHub Stats" src="https://github-readme-stats.W3ndig0u0.vercel.app/api?username=w3ndig0u0&show_icons=true&hide_border=true" />
-<br />
+  [![w3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=w3ndig0u0)](https://github.com/w3ndig0u0/github-readme-stats)]
 <br />
 
 
