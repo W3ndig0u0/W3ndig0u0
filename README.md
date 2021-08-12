@@ -1,6 +1,6 @@
 ## Hi there! 👋
   
-<div align="center" display="flex">  
+<div align="center" float="left" >  
 
 
 ![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.svg)
@@ -11,7 +11,7 @@
 </div>
 
   
-<div align="center" display="flex">  
+<div align="center" float="left">  
 
 ![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.personal.achievements.svg)
 
