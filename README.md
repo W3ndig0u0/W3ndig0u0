@@ -24,7 +24,6 @@
 </p>
 </br>
 
-![Metrics](https://metrics.lecoq.io/W3ndig0u0)
 
 <table>
   <tr>
@@ -33,12 +32,12 @@
   </tr>
   <tr>
     <td align="center">
-      <img alt="" width="400" src="https://github.com/W3ndig0u0/W3ndig0u0/blob/master/metrics.classic.svg">
-      <img width="900" height="1" alt="">
+      ![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula&align="center)
     </td>
     <td align="center">
-      <img alt="" width="400" src="https://github.com/W3ndig0u0/W3ndig0u0/blob/master/metrics.organization.svg">
-      <img width="900" height="1" alt="">
+      
+      ![Metrics](https://metrics.lecoq.io/W3ndig0u0)
+      
     </td>
   </tr>
 </table>
