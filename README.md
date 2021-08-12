@@ -1,4 +1,4 @@
-### Hi there, I'm Jingxiang - aka [W3ndig0u0][website] 👋
+### Hi there, I'm Jingxiang - aka [W3ndig0u0] 👋
 
 ## I'm a Student, Developer, and a Renowned Sleepyhead!!
   
@@ -19,14 +19,13 @@
   <img align="left" alt="React" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
   <img align="left" alt="Git" width="40px" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
   <img align="left" alt="Terminal" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+</br>
   
 </p>
-</br>
 </br>
 
 ![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula&align="center)
 
-[website]: https://codeSTACKr.com
 [kanime]: http://kanime.cf
 [twitter]: https://twitter.com/w3ndigo3
 [youtube]: https://www.youtube.com/channel/UCh_OgQgJr_jvZvEJhJ3s9Tg
