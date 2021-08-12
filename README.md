@@ -28,8 +28,7 @@
 <br />
 <br />
 
-
-[![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0)](https://github.com/anuraghazra/github-readme-stats)
+![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula)
 
 [website]: https://codeSTACKr.com
 [kanime]: http://kanime.cf
