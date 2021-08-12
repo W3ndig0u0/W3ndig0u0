@@ -4,6 +4,9 @@
 
 <img align="left" width="47%" src="https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.personal.anilist.svg" />
 
+</br>
+</br>
+
 <img align="center" src="https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.personal.achievements.svg" />
 <img align="left" width="47%" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=W3ndig0u0&layout=compact&theme=radical&align="center"" />
 <img align="left" width="47%" height="150" src="https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=radical&align="center" />
