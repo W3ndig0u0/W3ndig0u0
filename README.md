@@ -10,8 +10,6 @@
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2020 Goals: Contribute more to Open Source projects and creating my portfolio
-- ⚡ Fun fact: I love to Watch Series, Anime and Playing Video Games
-
 
 ### Languages and Tools:
 
