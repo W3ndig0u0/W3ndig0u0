@@ -1,6 +1,3 @@
-
-![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/github-metrics.svg)
-
 ### Hi there, I'm Jingxiang - aka [W3ndig0u0] 👋
 
 ## I'm a Student, Developer, and a Renowned Sleepyhead!!
@@ -28,6 +25,8 @@
 
 
 ![Metrics](https://metrics.lecoq.io/W3ndig0u0)
+
+![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/github-metrics.svg)
 
 ![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula&align="center)
 
