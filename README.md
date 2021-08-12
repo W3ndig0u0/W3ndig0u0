@@ -33,11 +33,8 @@
 <br />
 <br />
 <br />
-
-<summary>🌟: GitHub Stats</summary>
-<br />
-  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
-<br />
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![kanime](https://img.shields.io/website?label=Kanime.com&style=for-the-badge&url=https%3A%2F%2Fkanime.cf)](https://kanime.cf)
 
 
 [website]: https://codeSTACKr.com
