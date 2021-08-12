@@ -25,7 +25,9 @@
 <br />
 
 <p align="center">
+  
     ![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula)
+  
 </p>
 
 
