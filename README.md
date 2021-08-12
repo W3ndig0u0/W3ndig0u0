@@ -31,10 +31,12 @@
 <img align="left" alt="Terminal" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 <br />
 <br />
+<br />
+<br />
 
 <summary>🌟: GitHub Stats</summary>
 <br />
-<img align="left" alt="w3ndig0u0's GitHub Stats" src="https://github-readme-stats.w3ndig0u0.vercel.app/api?username=w3ndig0u0&show_icons=true&hide_border=true" />
+  <img align="left" alt="w3ndig0u0's GitHub Stats" src="https://github-readme-stats.W3ndig0u0.vercel.app/api?username=w3ndig0u0&show_icons=true&hide_border=true" />
 <br />
 <br />
 
