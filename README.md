@@ -1,20 +1,17 @@
 ## Hi there! 👋
   
-<div align="left">  
+<div align="center" display="flex">  
 
 
 ![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.svg)
-
-</div>
-
-<div align="right">  
-
+  
+  
 ![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.personal.anilist.svg)
 
 </div>
 
   
-<div align="center">  
+<div align="center" display="flex">  
 
 ![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.personal.achievements.svg)
 
