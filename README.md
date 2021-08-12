@@ -1,4 +1,4 @@
-## Hi there, I'm W3ndig0u0 - aka Student, Developer, and a Renowned Sleepyhead! 👋
+## Hi there! 👋
 </br>
 
 ![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.svg)
