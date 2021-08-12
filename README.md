@@ -21,6 +21,7 @@
   <img align="left" alt="Terminal" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 </p>
 </br>
+</br>
 
 
 ![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula&align="center)
