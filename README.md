@@ -24,10 +24,10 @@
 </p>
 </br>
 
-![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula&align="center)
 
 ![Metrics](https://metrics.lecoq.io/W3ndig0u0?template=classic&languages=1&introduction=1&habits=1&lines=1&achievements=1&repositories=1&screenshot=1&nightscout=1&anilist=1&projects=1&repositories=100&repositories.batch=100&repositories.forks=false&repositories.affiliations=owner&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.recent.load=300&languages.recent.days=14&introduction.title=true&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.trim=false&projects.limit=4&projects.descriptions=false&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&anilist.medias=anime%2C%20manga&anilist.sections=favorites&anilist.limit=2&anilist.limit.characters=22&anilist.shuffle=true&anilist.user=.user.login&screenshot.title=Screenshot&screenshot.selector=body&screenshot.background=true&nightscout.url=https%3A%2F%2Fexample.herokuapp.com&nightscout.datapoints=12&nightscout.lowalert=80&nightscout.highalert=180&nightscout.urgentlowalert=50&nightscout.urgenthighalert=250&config.timezone=Europe%2FStockholm)
 
+![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula&align="center)
 
 [kanime]: http://kanime.cf
 [twitter]: https://twitter.com/w3ndigo3
