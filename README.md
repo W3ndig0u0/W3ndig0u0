@@ -14,9 +14,9 @@
 - ⚡ Fun fact: I love to Watch Series, Anime and Playing Video Games
 
 ### Connect with me:
-[<img align="left" alt="codeSTACKr | YouTube" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="codeSTACKr | Twitter" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="codeSTACKr | LinkedIn" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="w3ndig0u0 | YouTube" width="30px" src="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png" />][youtube]
+[<img align="left" alt="w3ndig0u0 | Twitter" width="30px" src="https://www.pngkey.com/png/full/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" />][twitter]
+[<img align="left" alt="w3ndig0u0| LinkedIn" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />][linkedin]
 <br />
 <br />
 
