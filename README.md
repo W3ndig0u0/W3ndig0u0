@@ -1,12 +1,11 @@
-### Hi there, I'm Jingxiang - aka [W3ndig0u0] 👋
+# Hi there, I'm Jingxiang - aka [W3ndig0u0] 👋
 
-## I'm a Student, Developer, and a Renowned Sleepyhead!!
+### I'm a Student, Developer, and a Renowned Sleepyhead!!
 
 - 🔭 I just launched my newest website: [Kanime.cf][kanime]!
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2020 Goals: Contribute more to Open Source projects and creating my portfolio
-</br>
 </br>
 
 ### Languages and Tools:
@@ -21,6 +20,7 @@
 <img align="left" alt="React" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
 <img align="left" alt="Git" width="40px" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
 <img align="left" alt="Terminal" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+</br>
 </br>
 
 
