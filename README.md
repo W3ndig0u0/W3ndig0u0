@@ -2,8 +2,10 @@
 
 [![kanime](https://img.shields.io/website?label=Kanime.com&style=for-the-badge&url=https%3A%2F%2Fkanime.cf)](https://kanime.cf)
 [![Twitter Follow](https://img.shields.io/twitter/follow/w3ndigo3?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=w3ndigo3)
-[![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0)](https://github.com/anuraghazra/github-readme-stats)
 
+<br />
+[![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0)](https://github.com/anuraghazra/github-readme-stats)
+<br />
 
 ## I'm a Student, Developer, and a Homo Sapien!!
 
@@ -33,6 +35,8 @@
 <img align="left" alt="Terminal" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 <br />
 <br />
+<br />
+[![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0)](https://github.com/anuraghazra/github-readme-stats)
 <br />
 <br />
 
