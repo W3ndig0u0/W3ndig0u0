@@ -26,9 +26,6 @@
 
 ![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=dracula&align="center)
 
-
-<img src="https://pyblog.xyz/wp-content/uploads/2020/09/earth.jpg" align="right">
-
 [website]: https://codeSTACKr.com
 [kanime]: http://kanime.cf
 [twitter]: https://twitter.com/w3ndigo3
