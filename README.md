@@ -11,10 +11,7 @@
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2020 Goals: Contribute more to Open Source projects and creating my portfolio
 - ⚡ Fun fact: I love to Watch Series, Anime and Playing Video Games
-
 <br />
-
-
 ### Languages and Tools:
 
 <img align="left" alt="Visual Studio Code" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
