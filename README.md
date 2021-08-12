@@ -5,11 +5,11 @@
 
 </br>
 
-![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/github-metrics.personal.anilist.svg)
+![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.personal.anilist.svg)
 
 </br>
 
-![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/github-metrics.personal.achievements.svg)
+![Metrics](https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.personal.achievements.svg)
 
 </br>
 
