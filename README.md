@@ -5,12 +5,6 @@
 
 <br />
 
-
-[![W3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=W3ndig0u0)](https://github.com/anuraghazra/github-readme-stats)
-
-
-<br />
-
 ## I'm a Student, Developer, and a Homo Sapien!!
 
 - 🔭 I just launched my newest website: [Kanime.cf][kanime]!
