@@ -1,4 +1,4 @@
-### Hi there, I'm Jingxiang - aka Student, Developer, a Renowned Sleepyhead and [W3ndig0u0]! 👋
+## Hi there, I'm Jingxiang - aka Student, Developer, a Renowned Sleepyhead and [W3ndig0u0]! 👋
 
 #### Small Info:
 - 🔭 I just launched my newest website: [Kanime.cf][kanime]!
