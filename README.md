@@ -1,6 +1,6 @@
 ### Hi there, I'm Jingxiang - aka [W3ndig0u0][website] 👋
 
-## I'm a Student, Developer, and a Homo Sapien!!
+## I'm a Student, Developer, and a Sleepyhead!!
   
   - 🔭 I just launched my newest website: [Kanime.cf][kanime]!
   - 🌱 I’m currently learning everything 🤣
