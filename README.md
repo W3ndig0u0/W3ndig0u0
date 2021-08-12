@@ -36,7 +36,7 @@
 
 <summary>🌟: GitHub Stats</summary>
 <br />
-  [![w3ndig0u0's GitHub stats](https://github-readme-stats.vercel.app/api?username=w3ndig0u0)](https://github.com/w3ndig0u0/github-readme-stats)]
+  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
 <br />
 
 
