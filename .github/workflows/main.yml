@@ -24,36 +24,58 @@ jobs:
           plugin_achievements_limit: 20
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
+          
           plugin_anilist: yes
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
-          plugin_anilist_medias: anime, manga
+          plugin_anilist_medias: anime, manga, characters
           plugin_anilist_sections: favorites
           plugin_anilist_shuffle: yes
           plugin_anilist_user: .user.login
+          
           plugin_followup: yes
           plugin_followup_sections: repositories
+          
           plugin_gists: yes
+          
           plugin_introduction: yes
           plugin_introduction_title: yes
+          
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          
+          
           plugin_languages: yes
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
+          plugin_languages_ignored: html, css                           # List of languages to ignore
+          plugin_languages_skipped: my-test-repo                        # List of repositories to skip
+          plugin_languages_colors: "0:orange, javascript:#ff0000, ..."  # Make most used languages orange and JavaScript red
+          plugin_languages_aliases: "JavaScript:JS, TypeScript:TS, ..." # Customize languages names with aliases
+          plugin_languages_details: bytes-size, percentage              # Additionally display total bytes size and percentage
+          plugin_la nguages_threshold: 2%                               # Hides all languages less than 2%
+          plugin_languages_limit: 8                                     # Display up to 8 languages
+          plugin_languages_sections: most-used, recently-used           # Display most used and recently used languages stats
+          plugin_languages_indepth: no                                  # Get indepth stats (see documentation before enabling)
+          plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
+          plugin_languages_recent_days: 7                               # Limit recently used stats to last week
+          
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: yes      # Display facts section
+          plugin_habits_charts: yes     # Display charts section
+          plugin_habits_trim: yes       # Trim unused hours on daily chart
+
           plugin_lines: yes
           plugin_pagespeed: yes
-          plugin_pagespeed_url: .user.website
+          plugin_pagespeed_url: https://kanime.cf
           plugin_people: yes
           plugin_people_limit: 24
           plugin_people_size: 28
           plugin_people_types: followers, following
+          
           plugin_projects: yes
           plugin_projects_limit: 4
+          
           plugin_repositories: 100
           plugin_repositories: yes
           plugin_repositories_affiliations: owner
