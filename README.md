@@ -8,3 +8,5 @@
 <img align="right" width="380" src="https://github.com/W3ndig0u0/W3ndig0u0/blob/main/metrics.personal.achievements.svg" />
 <img align="left" width="90" src="https://media.giphy.com/media/Tn8rFhgmV6GLw9NGbZ/giphy.gif" />
 <img align="left" width="380" src="https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=radical&align="center" />
+
+<img align="center" width="100%" src="https://i.pinimg.com/originals/df/4e/0a/df4e0a60df69afe35b2fce8b1cb0a4f8.jpg" />
