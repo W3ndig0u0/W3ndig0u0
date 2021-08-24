@@ -2634,22 +2634,22 @@
                     <div class="chart-bars horizontal">
                         <div class="entry">
                             <span class="name">HTML</span>
-                            <div class="bar" style="width: 31.30501214155139%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <div class="bar" style="width: 31.30074203404627%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             <span class="value">39%</span>
                         </div>
                         <div class="entry">
                             <span class="name">JavaScript</span>
-                            <div class="bar" style="width: 28.644238902076342%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <div class="bar" style="width: 28.640331732867743%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             <span class="value">36%</span>
                         </div>
                         <div class="entry">
                             <span class="name">CSS</span>
-                            <div class="bar" style="width: 16.938146298873157%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <div class="bar" style="width: 16.946748144914885%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             <span class="value">21%</span>
                         </div>
                         <div class="entry">
                             <span class="name">C#</span>
-                            <div class="bar" style="width: 3.1126026574991132%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <div class="bar" style="width: 3.1121780881711043%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             <span class="value">4%</span>
                         </div>
                     </div>
