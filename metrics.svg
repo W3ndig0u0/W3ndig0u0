@@ -1330,7 +1330,7 @@
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"/></svg>
-            ~4.15 commits per day
+            ~4.16 commits per day
           </div>
                     </section>
                 </div>
@@ -2333,10 +2333,10 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
-                            <g transform="translate(-6.8, 9.875)">
+                            <g transform="translate(-6.8, 9.8125)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.125 0,1.125 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.125 1.7,2.125 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.1875 0,1.1875 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.1875 1.7,2.1875 z"/>
                             </g>
                         </g>
                     </g>
@@ -2353,21 +2353,21 @@
         Most used languages
       </h3>
                 <small>
-            estimation from 2275 edited files from 827 commits
+            estimation from 2276 edited files from 828 commits
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="204.43254996679656" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="204.43254996679656" y="0" width="182.99789025816423" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="387.43044022496076" y="0" width="26.225160581324964" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="413.65560080628575" y="0" width="22.608158060212855" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="436.2637588664986" y="0" width="22.32769168385607" height="8" fill="#9400ff"/>
-                    <rect mask="url(#languages-bar)" x="458.5914505503547" y="0" width="0.634462250900607" height="8" fill="#5686a5"/>
-                    <rect mask="url(#languages-bar)" x="459.2259128012553" y="0" width="0.4003573044668935" height="8" fill="#512be4"/>
-                    <rect mask="url(#languages-bar)" x="459.6262701057222" y="0" width="0.3737298942778395" height="8" fill="#aace60"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="204.46844028535685" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="204.46844028535685" y="0" width="182.9721911615994" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="387.4406314469562" y="0" width="26.221477681302144" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="413.66210912825835" y="0" width="22.604983109745813" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="436.2670922380042" y="0" width="22.32455612035944" height="8" fill="#9400ff"/>
+                    <rect mask="url(#languages-bar)" x="458.5916483583636" y="0" width="0.6343731509299482" height="8" fill="#5686a5"/>
+                    <rect mask="url(#languages-bar)" x="459.22602150929356" y="0" width="0.40030108075298393" height="8" fill="#512be4"/>
+                    <rect mask="url(#languages-bar)" x="459.6263225900466" y="0" width="0.37367740995341003" height="8" fill="#aace60"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -2378,7 +2378,7 @@
                     </div>
                             <small>
                                 <div>40.4k lines</div>
-                                <div>44.44%</div>
+                                <div>44.45%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -2461,13 +2461,13 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/></svg>
       Recent coding habits
       
-        <small class="h-details">(computed from last 10 commits)</small>
+        <small class="h-details">(computed from last 11 commits)</small>
       
     </h2>
                 <div class="row">
                     <ul class="habits">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 27.0 characters per line of code written</li>
+                        <li>Has approximately 26.9 characters per line of code written</li>
                         <li>Mostly pushes code around 12:00</li>
                         <li>Mostly active on Monday</li>
                     </ul>
@@ -2517,8 +2517,8 @@
               17
             </div>
                     <div class="entry">
-              <span class="value"></span>
-              <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+              <span class="value">1</span>
+              <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
               18
             </div>
                     <div class="entry">
@@ -2563,8 +2563,8 @@
                 Wed
               </div>
                         <div class="entry">
-                <span class="value">3</span>
-                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                <span class="value">4</span>
+                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                 Thu
               </div>
                         <div class="entry">
