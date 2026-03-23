@@ -14,7 +14,7 @@
 > **User:** `W3ndig0u0`  
 > **Status:** `Active_Developing`  
 > **Location:** `Stockholm, Sweden`  
-> **Primary_Cores:** `JS`, `TS`, `Python`, `C++`, `C#`
+> **Primary_Cores:** `JS`, `TS`, `Java`, `C#`, `Lua`, `Go`
 
 - 🔭 **Current Directive:** Engineering automated workflows and high-performance metrics.
 - 🧬 **Researching:** Advanced CI/CD pipelines and interactive data visualization.
@@ -24,7 +24,7 @@
 
 ### 🛠️ CORE_TECH_ARSENAL
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,cs,dotnet,arduino,react,nextjs,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,figma" />
+  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,cs,dotnet,arduino,react,nextjs,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,figma,neovim,vim" />
 </div>
 
 ---
