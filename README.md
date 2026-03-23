@@ -28,17 +28,10 @@
 </div>
 
 ---
-
 ### 📈 ANALYTICS_PROTOCOL
 <div align="center">
-  <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/main-metrics.svg" width="100%" />
+  <img src="https://github.com/W3ndig0u0/W3ndig0u0/blob/output/main-metrics.svg" width="100%" />
 </div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=W3ndig0u0&theme=tokyonight&hide_border=true&area=true" width="100%" />
-</div>
-
-<br />
 
 <div align="center">
   <table border="0">
@@ -49,22 +42,21 @@
       </td>
       <td width="50%" align="center">
         <h4>⌛ UPTIME (WakaTime)</h4>
-        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/wakatime.svg" width="100%" />
+        <img src="https://github.com/W3ndig0u0/W3ndig0u0/blob/output/wakatime.svg" width="100%" />
       </td>
     </tr>
     <tr>
       <td width="50%" align="center">
-        <h4>🎵 FREQUENCY (Spotify)</h4>
-        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/music.svg" width="100%" />
+        <h4>🔍 TECH_DISCOVERY</h4>
+        <img src="https://github.com/W3ndig0u0/W3ndig0u0/blob/output/extra-info.svg" width="100%" />
       </td>
       <td width="50%" align="center">
         <h4>🌸 MEDIA_LOG (AniList)</h4>
-        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/anilist.svg" width="100%" />
+        <img src="https://github.com/W3ndig0u0/W3ndig0u0/blob/output/anilist.svg" width="100%" />
       </td>
     </tr>
   </table>
 </div>
-
 ---
 
 ### 🔭 PROJECT_HIGHLIGHTS
