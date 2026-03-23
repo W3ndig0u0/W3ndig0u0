@@ -25,7 +25,7 @@
 
 ⚙️ Backend & Database
 <div align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,spring,dotnet,go,java,mongodb,mysql,postgres,sqlite,redis,prisma" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,spring,dotnet,go,java,mongodb,mysql,postgres,sqlite" />
 </div>
 
 💻 Systems, Low-Level & Scripting
