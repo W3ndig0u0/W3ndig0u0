@@ -18,7 +18,6 @@
 
 ---
 
-🛠️ CORE_TECH_ARSENAL
 🌐 Frontend & UI/UX
 <div align="center">
 <img src="https://skillicons.dev/icons?i=html,css,tailwind,sass,js,ts,react,nextjs,redux,threejs,figma,postman" />
