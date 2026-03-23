@@ -10,24 +10,21 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Main Dashboard & Habits
-      - name: 📊 General & Habits
+      # 1. Main Dashboard (Header, Languages, Habits)
+      - name: 📊 General Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: main-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories
           config_timezone: Europe/Stockholm
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_details: bytes-size, percentage
+          plugin_habits: yes
+          plugin_habits_charts: yes
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
 
-      # 2. Achievements & Topics
+      # 2. Tech Interests & Achievements (Replaces Music)
       - name: 🏆 Achievements & Topics
         uses: lowlighter/metrics@latest
         with:
@@ -36,24 +33,11 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
           plugin_topics: yes
           plugin_topics_mode: starred
           plugin_topics_limit: 15
 
-      # 3. Spotify (Now Playing)
-      - name: 🎵 Music
-        uses: lowlighter/metrics@latest
-        with:
-          filename: music.svg
-          token: NOT_NEEDED
-          plugin_music: yes
-          plugin_music_provider: spotify
-          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-          plugin_music_mode: recent
-          plugin_music_limit: 2
-
-      # 4. Coding Time (WakaTime)
+      # 3. WakaTime (Coding Time)
       - name: ⌛ WakaTime
         uses: lowlighter/metrics@latest
         with:
@@ -61,10 +45,9 @@ jobs:
           token: NOT_NEEDED
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-          plugin_wakatime_sections: time, projects, languages, editors
-          plugin_wakatime_days: 7
+          plugin_wakatime_sections: time, projects, languages
 
-      # 5. AniList (Media)
+      # 4. AniList (Anime/Manga)
       - name: 🌸 AniList
         uses: lowlighter/metrics@latest
         with:
@@ -73,10 +56,8 @@ jobs:
           plugin_anilist: yes
           plugin_anilist_user: W3ndig0u0
           plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: favorites
-          plugin_anilist_limit: 2
 
-      # 6. Snake Animation
+      # 5. Snake Game
       - name: 🐍 Snake
         uses: Platane/snk@v3
         with:
@@ -85,7 +66,7 @@ jobs:
             github-snake.svg
             github-snake-dark.svg?palette=github-dark
 
-      # 7. Deploy to 'output' branch
+      # 6. Push to 'output' branch
       - name: 🚀 Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
