@@ -76,11 +76,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 6. Commit and Push (The "Force Root" method)
+# 6. Commit and Push (Smart Sync)
       - name: 🚀 Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add *.svg
-          git commit -m "Update system metrics & snake [skip ci]" || echo "No changes to commit"
+          
+          # 1. Pull changes that the Metrics plugin just made
+          git pull origin main --rebase
+          
+          # 2. Add and commit the Snake files
+          git add github-snake.svg github-snake-dark.svg
+          git commit -m "Update snake animation [skip ci]" || echo "No snake changes"
+          
+          # 3. Final Push
           git push origin main
