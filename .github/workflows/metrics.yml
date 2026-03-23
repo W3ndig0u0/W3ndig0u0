@@ -10,6 +10,12 @@ jobs:
     permissions:
       contents: write
     steps:
+      # --- NEW CRITICAL STEP ---
+      - name: 📂 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history so git push works
+
       # 1. Main Dashboard
       - name: 📊 General Metrics
         uses: lowlighter/metrics@latest
@@ -19,7 +25,7 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: Europe/Stockholm
           plugin_languages: yes
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: no # Faster loading
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_isocalendar: yes
@@ -33,7 +39,6 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
           plugin_topics: yes
           plugin_topics_mode: starred
           plugin_topics_limit: 15
@@ -48,7 +53,7 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_sections: time, projects, languages
 
-      # 4. AniList (Kept exactly as requested)
+      # 4. AniList Media
       - name: 🌸 AniList Media
         uses: lowlighter/metrics@latest
         with:
@@ -58,10 +63,8 @@ jobs:
           plugin_anilist_user: W3ndig0u0
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: favorites, characters
-          plugin_anilist_limit: 2
-          plugin_anilist_limit_characters: 22
 
-# 5. Snake Game (Fixed Path)
+      # 5. Snake Game
       - name: 🐍 Snake
         uses: Platane/snk@v3
         with:
@@ -72,7 +75,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 6. Push directly to MAIN (Fixes the 404 issue)
+      # 6. Push directly to MAIN (Now it will find the .git folder)
       - name: 🚀 Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
