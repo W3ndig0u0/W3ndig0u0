@@ -18,9 +18,25 @@
 
 ---
 
-### 🛠️ CORE_TECH_ARSENAL
+🛠️ CORE_TECH_ARSENAL
+🌐 Frontend & UI/UX
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,cs,dotnet,arduino,react,nextjs,neovim,spring,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,vim,figma" />
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,sass,js,ts,react,nextjs,redux,threejs,figma,postman" />
+</div>
+
+⚙️ Backend & Database
+<div align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,spring,dotnet,go,java,mongodb,mysql,postgres,sqlite,redis,prisma" />
+</div>
+
+💻 Systems, Low-Level & Scripting
+<div align="center">
+<img src="https://skillicons.dev/icons?i=cpp,c,cs,py,lua,rust,arduino,raspberrypi,bash,powershell,linux" />
+</div>
+
+🚀 DevOps & Workflow
+<div align="center">
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,aws,gcp,git,github,vscode,neovim,vim,ubuntu,arch" />
 </div>
 
 ---
