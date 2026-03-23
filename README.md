@@ -28,9 +28,10 @@
 </div>
 
 ---
+
 ### 📈 ANALYTICS_PROTOCOL
 <div align="center">
-  <img src="https://github.com/W3ndig0u0/W3ndig0u0/blob/output/main-metrics.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/main-metrics.svg" width="100%" />
 </div>
 
 <div align="center">
@@ -42,21 +43,22 @@
       </td>
       <td width="50%" align="center">
         <h4>⌛ UPTIME (WakaTime)</h4>
-        <img src="https://github.com/W3ndig0u0/W3ndig0u0/blob/output/wakatime.svg" width="100%" />
+        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/wakatime.svg" width="100%" />
       </td>
     </tr>
     <tr>
       <td width="50%" align="center">
         <h4>🔍 TECH_DISCOVERY</h4>
-        <img src="https://github.com/W3ndig0u0/W3ndig0u0/blob/output/extra-info.svg" width="100%" />
+        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/extra-info.svg" width="100%" />
       </td>
       <td width="50%" align="center">
         <h4>🌸 MEDIA_LOG (AniList)</h4>
-        <img src="https://github.com/W3ndig0u0/W3ndig0u0/blob/output/anilist.svg" width="100%" />
+        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/anilist.svg" width="100%" />
       </td>
     </tr>
   </table>
 </div>
+
 ---
 
 ### 🔭 PROJECT_HIGHLIGHTS
@@ -70,7 +72,7 @@
 ### 📫 ESTABLISH_CONNECTION
 <div align="center">
   <a href="mailto:jingxiang304@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="[https://linkedin.com/in/your-profile](https://www.linkedin.com/in/jingxiang-xu-882324214/)"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/jingxiang-xu-882324214/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </div>
 
 <div align="right">
