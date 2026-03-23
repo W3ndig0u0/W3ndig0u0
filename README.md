@@ -16,15 +16,11 @@
 > **Location:** `Stockholm, Sweden`  
 > **Primary_Cores:** `JS`, `TS`, `Java`, `C#`, `Lua`, `Go`
 
-- 🔭 **Current Directive:** Engineering automated workflows and high-performance metrics.
-- 🧬 **Researching:** Advanced CI/CD pipelines and interactive data visualization.
-- 💬 **Ask me about:** Why Neovim is a way of life, or how to automate your entire environment.
-
 ---
 
 ### 🛠️ CORE_TECH_ARSENAL
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,java,cpp,cs,lua,go,spring,react,nextjs,neovim,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,figma" />
+  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,cs,dotnet,arduino,react,nextjs,neovim,spring,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,vim,figma" />
 </div>
 
 ---
@@ -45,7 +41,7 @@
     <tr>
       <td width="50%" align="center">
         <h4>🎖️ TROPHY_ROOM</h4>
-        <img src="https://github-profile-trophy.vercel.app/?username=W3ndig0u0&theme=tokyonight&no-frame=true&column=2" width="100%" />
+        <img src="https://github-profile-trophy.vercel.app/?username=W3ndig0u0&theme=tokyonight&no-frame=true&column=2" />
       </td>
       <td width="50%" align="center">
         <h4>⌛ UPTIME (WakaTime)</h4>
