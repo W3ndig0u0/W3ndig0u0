@@ -1,43 +1,49 @@
 <div align="center">
-  <h1>🚀 W3ndig0u0's Command Center</h1>
+  <h1>🌌 W3NDIG0U0 // SYSTEM_OVERRIDE</h1>
+  <p><b>Software Architect | Full-Stack Explorer | Data Visualizer</b></p>
+  
   <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/github-snake-dark.svg" alt="Snake" />
 </div>
 
 ---
 
-### 🛠️ Core Tech Arsenal
+### 🛠️ Tech Arsenal
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,react,nextjs,nodejs,express,mongodb,postgres,mysql,docker,githubactions,linux,nginx,aws,figma,tailwind,postman,visualstudio,vscode" />
+  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,react,nextjs,nodejs,express,mongodb,postgres,docker,githubactions,linux,nginx,figma,tailwind,vscode" />
 </div>
 
 ---
 
-### ⚡ Technical Analytics
+### ⚡ System Analytics
 <div align="center">
   <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/main-metrics.svg" width="100%" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=W3ndig0u0&theme=tokyonight&hide_border=true&area=true" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <table>
+  <table border="0">
     <tr>
       <td width="50%" align="center">
-        <h4>🎖️ Badges & Interests</h4>
-        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/extra-info.svg" width="100%" />
+        <h4>🎖️ Achievements</h4>
+        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/achievements.svg" width="100%" />
       </td>
       <td width="50%" align="center">
-        <h4>⌛ Week in Code</h4>
+        <h4>⌛ Coding Activity</h4>
         <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/wakatime.svg" width="100%" />
       </td>
     </tr>
     <tr>
       <td width="50%" align="center">
-        <h4>🎵 Recently Played</h4>
+        <h4>🎵 Current Frequency (Spotify)</h4>
         <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/music.svg" width="100%" />
       </td>
       <td width="50%" align="center">
-        <h4>🌸 AniList Favs</h4>
+        <h4>🌸 Media Protocol (AniList)</h4>
         <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/anilist.svg" width="100%" />
       </td>
     </tr>
@@ -46,8 +52,20 @@
 
 ---
 
-### 📈 Stats at a Glance
+### 🔭 Featured Projects
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=W3ndig0u0&show_icons=true&theme=tokyonight&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=W3ndig0u0&layout=compact&theme=tokyonight&hide=html,css" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=W3ndig0u0&repo=W3ndig0u0&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=W3ndig0u0&repo=YourRepo&theme=tokyonight" />
+</div>
+
+---
+
+### 📫 Secure Connection
+<div align="center">
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</div>
+
+<div align="right">
+  <img src="https://komarev.com/ghpvc/?username=W3ndig0u0&color=9d4edd&style=flat-square&label=SYSTEM_ACCESS_COUNT" />
 </div>
