@@ -54,21 +54,13 @@
 <div align="center">
   <table border="0">
     <tr>
-      <td width="50%" align="center">
-        <h4>🎖️ TROPHY_ROOM</h4>
-        <img src="https://github-profile-trophy.vercel.app/?username=W3ndig0u0&theme=tokyonight&no-frame=true&column=2" />
-      </td>
-      <td width="50%" align="center">
+      <td align="center">
         <h4>⌛ UPTIME (WakaTime)</h4>
         <img src="./wakatime.svg" width="100%" />
       </td>
     </tr>
     <tr>
-      <td width="50%" align="center">
-        <h4>🔍 TECH_DISCOVERY</h4>
-        <img src="./extra-info.svg" width="100%" />
-      </td>
-      <td width="50%" align="center">
+      <td align="center">
         <h4>🌸 MEDIA_LOG (AniList)</h4>
         <img src="./anilist.svg" width="100%" />
       </td>
