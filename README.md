@@ -1,9 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=9d4edd&height=200&section=header&text=W3NDIG0U0&fontSize=90&animation=fadeIn&fontAlignY=38" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=9d4edd&height=200&section=header&text=W3NDIG0U0&fontSize=90&animation=fadeIn&fontAlignY=38" width="100%" />
 
-  <p align="center">
-    <b>Software Architect // Full-Stack Explorer // System Optimizer</b>
-  </p>
+<p align="center">
+  <b>Software Architect // Full-Stack Explorer // System Optimizer</b>
+</p>
+
 
   <img src="./github-snake-dark.svg" alt="Snake" />
 </div>
@@ -45,6 +46,7 @@
   <img src="./main-metrics.svg" width="100%" />
 </div>
 
+<br />
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=W3ndig0u0&theme=tokyonight&hide_border=true&area=true" width="100%" />
 </div>
@@ -54,6 +56,10 @@
 <div align="center">
 <h4>⌛ UPTIME (WakaTime)</h4>
 <img src="./wakatime.svg" width="100%" />
+  
+<br />
+
+<br />
 <h4>🌸 MEDIA_LOG (AniList)</h4>
 <img src="./anilist.svg" width="100%" />
 </div>
