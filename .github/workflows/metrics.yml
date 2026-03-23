@@ -10,13 +10,12 @@ jobs:
     permissions:
       contents: write
     steps:
-      # --- NEW CRITICAL STEP ---
       - name: 📂 Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetches all history so git push works
+          fetch-depth: 0
 
-      # 1. Main Dashboard
+      # 1. Main Dashboard (Added C# ignore & Indepth back ON for accuracy)
       - name: 📊 General Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -25,9 +24,9 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: Europe/Stockholm
           plugin_languages: yes
-          plugin_languages_indepth: no # Faster loading
+          plugin_languages_indepth: yes               # <-- BETTER ACCURACY
           plugin_habits: yes
-          plugin_habits_from: 200 # Look back further at your history
+          plugin_habits_from: 200 
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           plugin_isocalendar: yes
@@ -66,7 +65,7 @@ jobs:
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: favorites, characters
 
-      # 5. Snake Game
+      # 5. Snake Game (Direct to root fix)
       - name: 🐍 Snake
         uses: Platane/snk@v3
         with:
@@ -77,11 +76,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 6. Push directly to MAIN (Now it will find the .git folder)
+      # 6. Commit and Push (The "Force Root" method)
       - name: 🚀 Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add *.svg
-          git commit -m "Update system metrics [skip ci]" || echo "No changes to commit"
-          git push
+          git commit -m "Update system metrics & snake [skip ci]" || echo "No changes to commit"
+          git push origin main
