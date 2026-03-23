@@ -1,7 +1,7 @@
 name: Advanced Metrics & Snake
 on:
   schedule:
-    - cron: "0 */6 * * *" # Körs var 6:e timme
+    - cron: "0 */6 * * *" # Every 6 hours
   push:
     branches: ["main"]
   workflow_dispatch:
@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Huvudstatistik (Språk, Habits, Isocalendar)
+      # 1. General Stats
       - name: 📊 General & Habits
         uses: lowlighter/metrics@latest
         with:
@@ -20,26 +20,16 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories
           config_timezone: Europe/Stockholm
-          
-          # Habits (Hur du kodar)
           plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          
-          # Languages (Indepth)
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: lines, percentage
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 8
-          
-          # Calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # 2. Anime & Manga (Anilist)
+      # 2. AniList (Media)
       - name: 🌸 Media Habits (AniList)
         uses: lowlighter/metrics@latest
         with:
@@ -50,9 +40,8 @@ jobs:
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: favorites, characters
           plugin_anilist_limit: 2
-          plugin_anilist_shuffle: yes
 
-      # 3. Achievements (Compact & Secrets)
+      # 3. Achievements
       - name: 🏆 Achievements
         uses: lowlighter/metrics@latest
         with:
@@ -62,29 +51,23 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
 
-      # 4. Generate the Snake (Flyttad hit för att samla allt)
+      # 4. Snake Game
       - name: 🐍 Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: W3ndig0u0
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            github-snake.svg
+            github-snake-dark.svg?palette=github-dark
 
-      # 5. Pusha alla filer till en separat branch (output) för att hålla main ren
+      # 5. Deploy to 'output' branch
+      # This version uses the official way to push to a separate branch
       - name: 🚀 Deploy to Output Branch
-        uses: crazy-max/github-action-push-assets@v1
-        with:
-          branch: output
-          assets: |
-            metrics.svg
-            metrics.anilist.svg
-            achievements.svg
-            dist/github-snake.svg
-            dist/github-snake-dark.svg
+        uses: s0/git-publish-subdir-action@develop
         env:
+          REPO: self
+          BRANCH: output # Images will live here
+          FOLDER: .
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "Update metrics and snake [skip ci]"
