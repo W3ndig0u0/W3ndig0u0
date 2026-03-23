@@ -1,9 +1,7 @@
-name: Advanced Metrics & Snake
+name: Ultimate Developer Dashboard
 on:
-  schedule:
-    - cron: "0 */6 * * *" # Every 6 hours
-  push:
-    branches: ["main"]
+  schedule: [{cron: "0 */6 * * *"}]
+  push: {branches: ["main"]}
   workflow_dispatch:
 
 jobs:
@@ -12,48 +10,61 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. General Stats
+      # 1. Dashboard (Left Side)
       - name: 📊 General & Habits
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg
+          filename: main-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories
           config_timezone: Europe/Stockholm
           plugin_habits: yes
-          plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_details: lines, percentage
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # 2. AniList (Media)
-      - name: 🌸 Media Habits (AniList)
+      # 2. Tech Interests & Achievements
+      - name: 🏆 Achievements & Topics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.anilist.svg
-          token: NOT_NEEDED
-          plugin_anilist: yes
-          plugin_anilist_user: W3ndig0u0
-          plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: favorites, characters
-          plugin_anilist_limit: 2
-
-      # 3. Achievements
-      - name: 🏆 Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: achievements.svg
+          filename: extra-info.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
+          plugin_topics: yes
+          plugin_topics_mode: starred
+          plugin_topics_limit: 15
 
-      # 4. Snake Game
-      - name: 🐍 Generate Snake
+      # 3. Spotify (Now Playing)
+      # Requires SPOTIFY_TOKENS secret (client_id, client_secret, refresh_token)
+      - name: 🎵 Music
+        uses: lowlighter/metrics@latest
+        with:
+          filename: music.svg
+          token: NOT_NEEDED
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_mode: recent
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
+          plugin_music_limit: 2
+
+      # 4. Coding Time (WakaTime)
+      # Requires WAKATIME_API_KEY secret
+      - name: ⌛ WakaTime
+        uses: lowlighter/metrics@latest
+        with:
+          filename: wakatime.svg
+          token: NOT_NEEDED
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_sections: time, projects, languages, editors
+          plugin_wakatime_days: 7
+
+      # 5. Snake Animation
+      - name: 🐍 Snake
         uses: Platane/snk@v3
         with:
           github_user_name: W3ndig0u0
@@ -61,13 +72,11 @@ jobs:
             github-snake.svg
             github-snake-dark.svg?palette=github-dark
 
-      # 5. Deploy to 'output' branch
-      # This version uses the official way to push to a separate branch
-      - name: 🚀 Deploy to Output Branch
+      # 6. Deploy to 'output'
+      - name: 🚀 Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
-          BRANCH: output # Images will live here
+          BRANCH: output
           FOLDER: .
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MESSAGE: "Update metrics and snake [skip ci]"
