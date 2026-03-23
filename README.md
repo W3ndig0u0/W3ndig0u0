@@ -67,14 +67,6 @@
 
 ---
 
-### 🔭 PROJECT_HIGHLIGHTS
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=W3ndig0u0&repo=Advanced-Metrics-Snake&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=W3ndig0u0&repo=W3ndig0u0&theme=tokyonight" />
-</div>
-
----
-
 ### 📫 ESTABLISH_CONNECTION
 <div align="center">
   <a href="mailto:jingxiang304@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
