@@ -48,7 +48,7 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_sections: time, projects, languages
 
-      # 4. AniList (Fixed Indentation)
+      # 4. AniList (Kept exactly as requested)
       - name: 🌸 AniList Media
         uses: lowlighter/metrics@latest
         with:
@@ -70,11 +70,11 @@ jobs:
             github-snake.svg
             github-snake-dark.svg?palette=github-dark
 
-      # 6. Deploy
-      - name: 🚀 Deploy
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: output
-          FOLDER: .
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # 6. Push directly to MAIN (Fixes the 404 issue)
+      - name: 🚀 Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.svg
+          git commit -m "Update system metrics [skip ci]" || echo "No changes to commit"
+          git push
