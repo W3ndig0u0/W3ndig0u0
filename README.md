@@ -7,7 +7,7 @@
 
 ### 🛠️ Core Tech Arsenal
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,react,nextjs,nodejs,docker,githubactions,linux,mongodb,postgres,aws" />
+  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,react,nextjs,nodejs,express,mongodb,postgres,mysql,docker,githubactions,linux,nginx,aws,figma,tailwind,postman,visualstudio,vscode" />
 </div>
 
 ---
