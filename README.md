@@ -24,7 +24,7 @@
 
 ### 🛠️ CORE_TECH_ARSENAL
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,cs,dotnet,arduino,react,nextjs,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,figma,neovim,vim" />
+  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,cs,dotnet,arduino,react,nextjs,neovim,spring,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,vim,figma" />
 </div>
 
 ---
