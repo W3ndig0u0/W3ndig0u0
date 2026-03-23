@@ -5,7 +5,7 @@
     <b>Software Architect // Full-Stack Explorer // System Optimizer</b>
   </p>
 
-  <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/github-snake-dark.svg" alt="Snake" />
+  <img src="./github-snake-dark.svg" alt="Snake" />
 </div>
 
 ---
@@ -18,21 +18,27 @@
 
 - 🔭 **Current Directive:** Engineering automated workflows and high-performance metrics.
 - 🧬 **Researching:** Advanced CI/CD pipelines and interactive data visualization.
-- 💬 **Ask me about:** Why C++ is a necessary pain, or how to automate your entire life.
+- 💬 **Ask me about:** Why Neovim is a way of life, or how to automate your entire environment.
 
 ---
 
 ### 🛠️ CORE_TECH_ARSENAL
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,cpp,cs,dotnet,arduino,react,nextjs,neovim,spring,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,vim,figma" />
+  <img src="https://skillicons.dev/icons?i=js,ts,java,cpp,cs,lua,go,spring,react,nextjs,neovim,nodejs,mongodb,mysql,docker,githubactions,linux,tailwind,vscode,figma" />
 </div>
 
 ---
 
 ### 📈 ANALYTICS_PROTOCOL
 <div align="center">
-  <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/main-metrics.svg" width="100%" />
+  <img src="./main-metrics.svg" width="100%" />
 </div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=W3ndig0u0&theme=tokyonight&hide_border=true&area=true" width="100%" />
+</div>
+
+<br />
 
 <div align="center">
   <table border="0">
@@ -43,17 +49,17 @@
       </td>
       <td width="50%" align="center">
         <h4>⌛ UPTIME (WakaTime)</h4>
-        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/wakatime.svg" width="100%" />
+        <img src="./wakatime.svg" width="100%" />
       </td>
     </tr>
     <tr>
       <td width="50%" align="center">
         <h4>🔍 TECH_DISCOVERY</h4>
-        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/extra-info.svg" width="100%" />
+        <img src="./extra-info.svg" width="100%" />
       </td>
       <td width="50%" align="center">
         <h4>🌸 MEDIA_LOG (AniList)</h4>
-        <img src="https://raw.githubusercontent.com/W3ndig0u0/W3ndig0u0/output/anilist.svg" width="100%" />
+        <img src="./anilist.svg" width="100%" />
       </td>
     </tr>
   </table>
