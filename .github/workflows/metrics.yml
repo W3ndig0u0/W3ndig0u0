@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Main Dashboard (Header, Languages, Habits)
+      # 1. Main Dashboard
       - name: 📊 General Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -24,7 +24,7 @@ jobs:
           plugin_habits_charts: yes
           plugin_isocalendar: yes
 
-      # 2. Tech Interests & Achievements (Replaces Music)
+      # 2. Tech Interests & Achievements
       - name: 🏆 Achievements & Topics
         uses: lowlighter/metrics@latest
         with:
@@ -33,11 +33,12 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
           plugin_topics: yes
           plugin_topics_mode: starred
           plugin_topics_limit: 15
 
-      # 3. WakaTime (Coding Time)
+      # 3. WakaTime
       - name: ⌛ WakaTime
         uses: lowlighter/metrics@latest
         with:
@@ -47,8 +48,8 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_sections: time, projects, languages
 
-      # 4. AniList (Anime/Manga)
-      - name: 🌸 AniList
+      # 4. AniList (Fixed Indentation)
+      - name: 🌸 AniList Media
         uses: lowlighter/metrics@latest
         with:
           filename: anilist.svg
@@ -56,6 +57,9 @@ jobs:
           plugin_anilist: yes
           plugin_anilist_user: W3ndig0u0
           plugin_anilist_medias: anime, manga
+          plugin_anilist_sections: favorites, characters
+          plugin_anilist_limit: 2
+          plugin_anilist_limit_characters: 22
 
       # 5. Snake Game
       - name: 🐍 Snake
@@ -66,7 +70,7 @@ jobs:
             github-snake.svg
             github-snake-dark.svg?palette=github-dark
 
-      # 6. Push to 'output' branch
+      # 6. Deploy
       - name: 🚀 Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
