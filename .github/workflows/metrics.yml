@@ -1,6 +1,6 @@
 name: Ultimate System Metrics
 on:
-  schedule: [{cron: "0 */1 * * *"}]
+  schedule: [{cron: "0 */6 * * *"}]
   push: {branches: ["main"]}
   workflow_dispatch:
 
@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 1. Main Dashboard (Added C# ignore & Indepth back ON for accuracy)
+# 1. Main Dashboard 
       - name: 📊 General Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -23,10 +23,17 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories
           config_timezone: Europe/Stockholm
+          
+          # --- LANGUAGES FIX ---
           plugin_languages: yes
-          plugin_languages_indepth: no               # <-- BETTER ACCURACY
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 10
+          plugin_languages_details: percentage
+          
+          # --- HABITS FIX ---
           plugin_habits: yes
-          plugin_habits_from: 200 
+          plugin_habits_from: 200
+          plugin_habits_days: 14
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           plugin_isocalendar: yes
