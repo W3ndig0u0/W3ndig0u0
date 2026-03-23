@@ -61,7 +61,7 @@ jobs:
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
 
-      # 5. Snake Game
+# 5. Snake Game (Fixed Path)
       - name: 🐍 Snake
         uses: Platane/snk@v3
         with:
@@ -69,6 +69,8 @@ jobs:
           outputs: |
             github-snake.svg
             github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # 6. Push directly to MAIN (Fixes the 404 issue)
       - name: 🚀 Commit and Push
