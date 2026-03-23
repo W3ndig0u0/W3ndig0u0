@@ -52,20 +52,10 @@
 <br />
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center">
-        <h4>⌛ UPTIME (WakaTime)</h4>
-        <img src="./wakatime.svg" width="100%" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <h4>🌸 MEDIA_LOG (AniList)</h4>
-        <img src="./anilist.svg" width="100%" />
-      </td>
-    </tr>
-  </table>
+<h4>⌛ UPTIME (WakaTime)</h4>
+<img src="./wakatime.svg" width="100%" />
+<h4>🌸 MEDIA_LOG (AniList)</h4>
+<img src="./anilist.svg" width="100%" />
 </div>
 
 ---
