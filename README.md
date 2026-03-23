@@ -1,9 +1,11 @@
 <div align="center">
   <a href="#user-content-"><img src="https://capsule-render.vercel.app/api?type=waving&color=9d4edd&height=200&section=header&text=W3NDIG0U0&fontSize=90&animation=fadeIn&fontAlignY=38" width="100%" /></a>
 
-  <p align="center">
-    <b>Software Architect // Full-Stack Explorer // System Optimizer</b>
-  </p>
+<p align="center">
+  <a href="#user-content-">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=Software+Architect;Full-Stack+Explorer;System+Optimizer" alt="Typing SVG" />
+  </a>
+</p>
 
   <a href="#user-content-"><img src="./github-snake-dark.svg" alt="Snake" /></a>
 </div>
@@ -39,8 +41,13 @@
 </div>
 
 ---
-
 ### 📈 ANALYTICS_PROTOCOL
+<div align="center">
+<a href="#user-content-">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=W3ndig0u0&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</a>
+</div>
+
 <div align="center">
   <a href="#user-content-"><img src="./main-metrics.svg" width="100%" /></a>
 </div>
@@ -64,6 +71,12 @@
 </div>
 
 ---
+
+<div align="center">
+  <a href="#user-content-">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Quote" />
+  </a>
+</div>
 
 ### 📫 ESTABLISH_CONNECTION
 <div align="center">
