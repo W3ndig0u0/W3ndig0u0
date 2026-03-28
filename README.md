@@ -20,6 +20,11 @@
 
 ---
 
+<div align="center">
+  <h4>⌛ UPTIME (WakaTime)</h4>
+  <a href="#user-content-"><img src="./wakatime.svg" width="100%" /></a>
+  
+
 🌐 Frontend & UI/UX
 <div align="center">
   <a href="#user-content-"><img src="https://skillicons.dev/icons?i=html,css,tailwind,sass,js,ts,react,nextjs,redux,threejs,figma,postman" /></a>
@@ -58,12 +63,6 @@
   <a href="#user-content-"><img src="https://github-readme-activity-graph.vercel.app/graph?username=W3ndig0u0&theme=tokyonight&hide_border=true&area=true" width="100%" /></a>
 </div>
 
-<br />
-
-<div align="center">
-  <h4>⌛ UPTIME (WakaTime)</h4>
-  <a href="#user-content-"><img src="./wakatime.svg" width="100%" /></a>
-  
   <br /><br />
   
   <h4>🌸 MEDIA_LOG (AniList)</h4>
